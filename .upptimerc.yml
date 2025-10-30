@@ -14,7 +14,7 @@ sites:
   - name: Backend Service
     url: https://api.ikooworld.com/
     expectedStatusCodes:
-      - 404
+      - 200
 
 status-website:
   baseUrl: /upptime-monitor    # ✅ Correct for aspire-impact.github.io/upptime-monitor
