@@ -12,10 +12,9 @@ sites:
   - name: Assurara Portal
     url: https://assurance.ikooworld.com/
   - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    url: https://api.ikooworld.com/
+    expectedStatusCodes:
+      - 200
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
