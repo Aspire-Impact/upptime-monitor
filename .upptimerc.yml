@@ -5,14 +5,24 @@ repo: upptime-monitor         # ✅ Your repo name
 sites:
   - name: Ikoo Website
     url: https://www.ikooworld.com
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
   - name: User Portal
     url: https://platform.ikooworld.com/
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
   - name: Admin Portal
     url: https://admin.ikooworld.com/
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
   - name: Assurara Portal
     url: https://assurance.ikooworld.com/
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
   - name: Backend Service
     url: https://api.ikooworld.com/
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
     expectedStatusCodes:
       - 404
 
