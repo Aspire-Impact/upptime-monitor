@@ -2,6 +2,9 @@
 owner: Aspire-Impact          # ✅ Must match exactly (case-sensitive)
 repo: upptime-monitor         # ✅ Your repo name
 
+# Global monitoring options
+sslExpiryDays: 14         # ✅ Alert 14 days before certificate expires
+
 sites:
   - name: Ikoo Website
     url: https://www.ikooworld.com
