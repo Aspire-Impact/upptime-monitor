@@ -28,6 +28,10 @@ sites:
     checkSsl: true 
     expectedStatusCodes:
       - 404
+  - name: wrong-domain-test
+    url: https://fake.ikooworld.com
+    checkDns: true
+    checkSsl: true
 
 status-website:
   baseUrl: /upptime-monitor    # ✅ Correct for aspire-impact.github.io/upptime-monitor
