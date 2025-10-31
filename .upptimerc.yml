@@ -4,7 +4,11 @@ repo: upptime-monitor         # ✅ Your repo name
 
 # Global monitoring options
 sslExpiryDays: 14         # ✅ Alert 14 days before certificate expires
-
+checks:
+  - name: SSL
+    type: certificate-expiry
+  - name: DNS
+    type: dns
 sites:
   - name: Ikoo Website
     url: https://www.ikooworld.com
@@ -28,10 +32,6 @@ sites:
     checkSsl: true 
     expectedStatusCodes:
       - 404
-  - name: wrong-domain-test
-    url: https://fake.ikooworld.com
-    checkDns: true
-    checkSsl: true
 
 status-website:
   baseUrl: /upptime-monitor    # ✅ Correct for aspire-impact.github.io/upptime-monitor
