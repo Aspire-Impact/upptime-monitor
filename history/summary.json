@@ -25,9 +25,9 @@
     "url": "https://platform.ikooworld.com/",
     "icon": "https://icons.duckduckgo.com/ip3/platform.ikooworld.com.ico",
     "slug": "user-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -36,16 +36,18 @@
     "timeWeek": 729,
     "timeMonth": 759,
     "timeYear": 761,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-18": 0
+    }
   },
   {
     "name": "Admin Portal",
     "url": "https://admin.ikooworld.com/",
     "icon": "https://icons.duckduckgo.com/ip3/admin.ikooworld.com.ico",
     "slug": "admin-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -54,16 +56,18 @@
     "timeWeek": 733,
     "timeMonth": 740,
     "timeYear": 747,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-18": 0
+    }
   },
   {
     "name": "Assurara Portal",
     "url": "https://assurance.ikooworld.com/",
     "icon": "https://icons.duckduckgo.com/ip3/assurance.ikooworld.com.ico",
     "slug": "assurara-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -72,7 +76,9 @@
     "timeWeek": 738,
     "timeMonth": 745,
     "timeYear": 749,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-18": 0
+    }
   },
   {
     "name": "Backend Service",
@@ -80,11 +86,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.ikooworld.com.ico",
     "slug": "backend-service",
     "status": "up",
-    "uptime": "99.62%",
+    "uptime": "99.63%",
     "uptimeDay": "81.60%",
     "uptimeWeek": "97.37%",
     "uptimeMonth": "99.40%",
-    "uptimeYear": "99.62%",
+    "uptimeYear": "99.63%",
     "time": 740,
     "timeDay": 704,
     "timeWeek": 725,
