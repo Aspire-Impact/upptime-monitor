@@ -26,12 +26,12 @@ sites:
     url: https://assurance.ikooworld.com/
     checkDns: true          # ✅ enables DNS resolution check
     checkSsl: true 
-  # - name: Backend Service
-  #   url: https://api.ikooworld.com/
-  #   checkDns: true          # ✅ enables DNS resolution check
-  #   checkSsl: true 
-  #   expectedStatusCodes:
-  #     - 404
+  - name: Backend Service
+    url: https://api.ikooworld.com/
+    checkDns: true          # ✅ enables DNS resolution check
+    checkSsl: true 
+    expectedStatusCodes:
+      - 404
 
 status-website:
   baseUrl: /upptime-monitor    # ✅ Correct for aspire-impact.github.io/upptime-monitor
