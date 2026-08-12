@@ -90,16 +90,16 @@
     "url": "https://api.ikooworld.com/",
     "icon": "https://icons.duckduckgo.com/ip3/api.ikooworld.com.ico",
     "slug": "backend-service",
-    "status": "down",
-    "uptime": "97.69%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "97.69%",
+    "status": "up",
+    "uptime": "97.66%",
+    "uptimeDay": "95.04%",
+    "uptimeWeek": "99.29%",
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "97.66%",
     "time": 734,
-    "timeDay": 664,
-    "timeWeek": 732,
-    "timeMonth": 724,
+    "timeDay": 678,
+    "timeWeek": 729,
+    "timeMonth": 723,
     "timeYear": 734,
     "dailyMinutesDown": {
       "2025-12-17": 265,
@@ -112,7 +112,7 @@
       "2026-04-15": 84,
       "2026-04-27": 129,
       "2026-07-07": 116,
-      "2026-08-12": 0
+      "2026-08-12": 71
     }
   }
 ]
